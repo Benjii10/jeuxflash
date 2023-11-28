@@ -49,6 +49,7 @@ Les points gagnés sont automatiquement ajoutés au profil de l'utilisateur.
 3. Répartition des Rôles
 
 L'équipe de développement se compose des membres suivants, chacun étant responsable d'une partie spécifique du projet:
+
 Jean-Laud : Développement de la page de profil en back-end.
 
 Adim : Développement des pages de connexion et d'inscription en back-end.
@@ -59,15 +60,15 @@ Nour : Développement de la page d'accueil en front-end.
 
 Siaka : Développement des pages de connexion et d'inscription en front-end.
 
-Benjamin : Développement de la page de profil en front-end.
+Benjamin : Développement de la page de profil en front-end (HTML/CSS/JS).
 
 4. Contraintes Techniques
 
-L'application web sera développée en utilisant des technologies web modernes, telles que HTML5, CSS3 et JavaScript.
-L'utilisation d'une base de données pour stocker les profils des utilisateurs, leurs points et leurs coupons de réduction.
+L'application web sera développée en utilisant des technologies web, telles que HTML5, CSS3, JavaScript et Php.
+L'utilisation d'une base de données de type MySQL pour stocker les informations profils des utilisateurs, leurs points et leurs coupons de réduction.
 L'application sera responsive, accessible depuis des ordinateurs de bureau et des appareils mobiles.
 Les navigateurs pris en charge incluent Google Chrome, Mozilla Firefox, Safari, et Microsoft Edge.
 
 5. Planning du Projet
 
-Le projet sera découpé en plusieurs étapes, avec des jalons clés pour chaque fonctionnalité. Le planning détaillé sera élaboré par l'équipe de développement en utilisant la méthodologie Agile.</p>
+Le projet sera découpé en plusieurs étapes, avec des jalons clés pour chaque fonctionnalité. Le planning détaillé sera élaboré par l'équipe de développement en utilisant au mieu une méthodologie "Agile".</p>
