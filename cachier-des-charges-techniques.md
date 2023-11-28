@@ -1,4 +1,7 @@
-<h1>1. Objectif du Projet
+<h1>Cahier des charges</h1>
+
+<p>
+1. Objectif du Projet
 
 L'objectif principal du projet est de créer une application web divertissante pour les étudiants de l'école HETIC. Les utilisateurs pourront jouer à une variété de jeux en ligne tels que le Mahjong, le Solitaire, les Échecs, les Dames et le Scrabble. En réussissant ces mini-jeux, ils accumuleront des points en fonction de la difficulté du jeu. Une fois qu'ils auront atteint un certain nombre de points, ils recevront des coupons de réduction au Birdes.
 
@@ -63,4 +66,4 @@ Les navigateurs pris en charge incluent Google Chrome, Mozilla Firefox, Safari, 
 
 5. Planning du Projet
 
-Le projet sera découpé en plusieurs étapes, avec des jalons clés pour chaque fonctionnalité. Le planning détaillé sera élaboré par l'équipe de développement en utilisant la méthodologie Agile.</h1>
+Le projet sera découpé en plusieurs étapes, avec des jalons clés pour chaque fonctionnalité. Le planning détaillé sera élaboré par l'équipe de développement en utilisant la méthodologie Agile.</p>
