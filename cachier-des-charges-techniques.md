@@ -64,9 +64,9 @@ Benjamin : Développement de la page de profil en front-end (HTML/CSS/JS).
 
 4. Contraintes Techniques
 
-L'application web sera développée en utilisant des technologies web, telles que HTML5, CSS3, JavaScript et Php.
+L'application web sera développée en utilisant des technologies web, telles que HTML, CSS, JavaScript et PHP.
 L'utilisation d'une base de données de type MySQL pour stocker les informations profils des utilisateurs, leurs points et leurs coupons de réduction.
-L'application sera responsive, accessible depuis des ordinateurs de bureau et des appareils mobiles.
+L'application sera responsive, accessible depuis n'importe quel ordinateur ou appareil mobile.
 Les navigateurs pris en charge incluent Google Chrome, Mozilla Firefox, Safari, et Microsoft Edge.
 
 5. Planning du Projet
