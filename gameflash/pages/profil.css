@@ -1,0 +1,316 @@
+
+
+/* Styles spécifiques pour les onglets et leur contenu */
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}
+.profile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.profile-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.user-info .username-placeholder {
+    text-align: center; /* Centrer le contenu dans .user-info */
+    margin-bottom: 20px; /* Espacement avec les éléments suivants */
+    font-size: 1.8rem; /* Ajustez la taille selon vos besoins */
+    color: #333;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Ombre portée pour du relief */
+    padding-bottom: 5px; /* Espacement entre le texte et la bordure */
+    margin-bottom: 10px; /* Espacement avec l'élément suivant */
+}
+
+.user-info .email-placeholder {
+    text-align: center; /* Centrer le contenu dans .user-info */
+    margin-bottom: 20px; /* Espacement avec les éléments suivants */
+    font-size: 1.8rem; /* Ajustez la taille selon vos besoins */
+    color: #333;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Ombre portée pour du relief */
+    padding-bottom: 5px; /* Espacement entre le texte et la bordure */
+    margin-bottom: 10px; /* Espacement avec l'élément suivant */
+}
+
+
+
+/* Style général des onglets */
+.tabs {
+    display: flex;
+    justify-content: center; /* Centrer les onglets */
+    margin-bottom: 20px;
+    padding: 0; /* Enlever le padding par défaut */
+}
+
+.tab {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px; /* Bords arrondis */
+    margin: 0 10px; /* Espacement entre les onglets */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative; /* Pour le pseudo-élément de l'animation */
+}
+
+/* Animation de survol pour les onglets */
+.tab:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation de cadre pour les onglets */
+.tab::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab:hover::before {
+    border-color: #4A90E2; /* Couleur de l'animation de cadre */
+    animation: rotateFrame 2s linear infinite;
+}
+
+/* Keyframes pour l'animation du cadre */
+@keyframes rotateFrame {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Style pour l'onglet actif */
+.active {
+    background-color: #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tab-content .active-content {
+    display: block;
+}
+
+.tab-content div {
+    display: none;
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .profile-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tab {
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile-header span,
+    .user-info h1,
+    .user-info .badge {
+        font-size: 0.8rem;
+    }
+
+    .tab {
+        padding: 5px 5px;
+        font-size: 0.7rem;
+    }
+}
+/* ... Autres styles ... */
+
+/* Styles pour la section d'échange de points */
+.points-exchange {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.points-exchange h2 {
+    color: #333;
+    text-align: center;
+}
+
+.rewards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reward {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reward h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reward p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+
+/* Styles supplémentaires pour améliorer l'aspect général de la page */
+
+/* Augmenter la taille de la police et ajouter une ombre portée au titre */
+.user-info h1 {
+    font-size: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+/* Améliorer le style des onglets pour un effet plus moderne */
+.tab {
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.tab:hover {
+    background-color: #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Ajuster les médias queries pour un design plus réactif */
+@media (max-width: 600px) {
+    .profile-container {
+        padding: 15px;
+    }
+    
+    .profile-picture img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .tab {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .user-info h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .tab {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .user-info h1 {
+        font-size: 1rem;
+    }
+}
+
+/* Styles supplémentaires pour les sections de progression et de récompense */
+.progression-info, .recompense-info {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progression-info h2, .recompense-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.progression-info, .recompense-info {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progression-info h2, .recompense-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Ajout d'ombres et d'effets de perspective sur le conteneur principal */
+.profile-container {
+    /* ... styles existants ... */
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+    transform: scale(1.02); /* Légère mise à l'échelle au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+}
+
+/* Styles pour les onglets pour une meilleure ergonomie */
+.tab {
+    /* ... styles existants ... */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: translateY(0);
+}
+
+.tab:hover {
+    background-color: #ececec; /* Couleur au survol */
+    transform: translateY(-2px); /* Léger soulèvement */
+}
+
+/* Amélioration de l'affichage des récompenses et de la progression */
+.reward, .progression-info, .recompense-info {
+    /* ... styles existants ... */
+    transition: box-shadow 0.3s ease;
+}
+
+.reward:hover, .progression-info:hover, .recompense-info:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.profile-container {
+    /* Vos styles existants... */
+    background: linear-gradient(270deg, #ff8a00, #e52e71, #9a4eff);
+    background-size: 600% 600%;
+    animation: animatedBackground 15s ease infinite;
+}

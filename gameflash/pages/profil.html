@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil de l'utilisateur</title>
+    <link rel="stylesheet" href="profil.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <span>Informations du profil</span>
+            <button class="close-button">X</button>
+        </div>
+        <div class="profile-picture">
+            <img src="../page-profile/images/788a55ed-e844-4c6a-8bb8-fa60c62cadbc.jpg" alt="Photo de profil">
+        </div>
+        <div class="user-info">
+                <h1><span id="username-placeholder">Username</span></h1>
+            </div>
+        <div class="profile-content">
+            <ul class="tabs">
+                <li class="tab active" data-tab="progression">Progression</li>
+                <li class="tab" data-tab="recompense">Récompenses</li>
+            </ul>
+          <!--<div class="tab-content">
+                <div class="tab-pane active" id="progression">
+                     Contenu dynamique pour la progression 
+                </div>
+                <div class="tab-pane" id="recompense">
+                     Contenu dynamique pour les récompenses 
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <script src="profil.js"></script>
+    <script src="LoginPages.js"></script>
+</body>
+</html>
