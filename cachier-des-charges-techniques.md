@@ -48,13 +48,17 @@ Les points gagnés sont automatiquement ajoutés au profil de l'utilisateur.
 
 3. Répartition des Rôles
 
-L'équipe de développement se compose des membres suivants, chacun étant responsable d'une partie spécifique du projet :
-
+L'équipe de développement se compose des membres suivants, chacun étant responsable d'une partie spécifique du projet:
 Jean-Laud : Développement de la page de profil en back-end.
+
 Adim : Développement des pages de connexion et d'inscription en back-end.
+
 Rafik : Développement de la page d'accueil en back-end.
+
 Nour : Développement de la page d'accueil en front-end.
+
 Siaka : Développement des pages de connexion et d'inscription en front-end.
+
 Benjamin : Développement de la page de profil en front-end.
 
 4. Contraintes Techniques
