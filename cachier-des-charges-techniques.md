@@ -3,7 +3,7 @@
 <p>
 1. Objectif du Projet
 
-L'objectif principal du projet est de créer une application web divertissante pour les étudiants de l'école HETIC. Les utilisateurs pourront jouer à une variété de jeux en ligne tels que le Mahjong, le Solitaire, les Échecs, les Dames et le Scrabble. En réussissant ces mini-jeux, ils accumuleront des points en fonction de la difficulté du jeu. Une fois qu'ils auront atteint un certain nombre de points, ils recevront des coupons de réduction au Birdes.
+L'objectif principal du projet est de créer une application web divertissante pour les étudiants de l'école HETIC. Les utilisateurs pourront resoudre une serie de devinette. En les réussissant, ils accumuleront des points en fonction de la difficulté du probleme. Une fois qu'ils auront atteint un certain nombre de points, ils recevront des coupons de réduction au Birdes.
 
 2. Fonctionnalités de l'Application Web
 
