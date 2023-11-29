@@ -20,7 +20,7 @@ Page de Profil
 
 Les utilisateurs auront des profils où ils pourront consulter leur nombre de points accumulés.
 Affichage des coupons de réduction obtenus et disponibles pour le Birdes.
-Informations sur le niveau de progression des jeux de l'utilisateur.
+Informations sur le niveau de progression des devinettes ouvertes de l'utilisateur.
 
 Page de Connexion
 
@@ -36,14 +36,14 @@ Redirection vers la page de profil après l'inscription réussie.
 
 Pages de Jeux Choisis
 
-Chaque jeu (Mahjong, Solitaire, Échecs, Dames, Scrabble) aura sa propre route spécifique pour jouer.
-L'utilisateur pourra choisir le jeu auquel il souhaite jouer depuis la page d'accueil.
-Les jeux en ligne permettront aux utilisateurs de relever des défis et d'accumuler des points.
+Chaque devinette aura sa propre route spécifique pour jouer.
+L'utilisateur pourra choisir le probleme auquel il souhaite s'amuser depuis la page d'accueil.
+L'application en ligne permettra aux utilisateurs de relever des défis et d'accumuler des points.
 
 Pop-up de Récompense
 
-Lorsqu'un utilisateur réussit un jeu, un pop-up s'affiche pour lui indiquer qu'il a gagné.
-Le pop-up affiche le nombre de points gagnés pour ce jeu.
+Lorsqu'un utilisateur réussit un probleme, un pop-up s'affiche pour lui indiquer qu'il a gagné.
+Le pop-up affiche le nombre de points gagnés pour cette devinette.
 Les points gagnés sont automatiquement ajoutés au profil de l'utilisateur.
 
 3. Répartition des Rôles
