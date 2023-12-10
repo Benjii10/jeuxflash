@@ -7,7 +7,7 @@ L'objectif principal du projet est de créer une application web divertissante p
 
 2. Fonctionnalités de l'Application Web
 
-L'application web "HeticxBirdes" comprendra les fonctionnalités suivantes :
+L'application web "Riddle" comprendra les fonctionnalités suivantes :
 
 Page d'Accueil
 
